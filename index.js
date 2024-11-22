@@ -12,7 +12,7 @@ function checkIPv6Status(callback) {
             console.log('IPv6 is currently \x1b[31mdisabled.\x1b[0m');
             callback(false); // IPv6 disabled
         } else {
-            console.log('IPv6 is currently \x1b[32menabled.s\x1b[0m');
+            console.log('IPv6 is currently \x1b[32menabled.\x1b[0m');
             callback(true); // IPv6 enabled
         }
     });
